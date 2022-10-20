@@ -37,5 +37,6 @@ int main() {
     Solution s;
     for(int i = 0; i < 100; i++)
         cout << s.pow(2,i) << endl;
+    cout << -5/2 << endl;
     return 0;
 }
