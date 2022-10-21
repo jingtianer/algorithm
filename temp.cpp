@@ -34,9 +34,12 @@ public:
     }
 };
 int main() {
-    Solution s;
-    for(int i = 0; i < 100; i++)
-        cout << s.pow(2,i) << endl;
-    cout << -5/2 << endl;
+    map<int, int> m;
+    for(int i = 0; i < 10; i++) {
+        m[i*i] = i;
+    }
+    for(auto ite : m) {
+        cout << ite.first << " " << ite.second << endl;
+    }
     return 0;
 }
