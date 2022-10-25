@@ -34,12 +34,9 @@ public:
     }
 };
 int main() {
-    map<int, int> m;
-    for(int i = 0; i < 10; i++) {
-        m[i*i] = i;
-    }
-    for(auto ite : m) {
-        cout << ite.first << " " << ite.second << endl;
+    string s = "1043672911";
+    for(char c: s) {
+        cout << char(c-'0'+'A');
     }
     return 0;
 }
